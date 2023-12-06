@@ -145,7 +145,6 @@ REST_FRAMEWORK = {
     },
 }
 
-"""
 REST_FRAMEWORK = {
     'DATE_FORMAT': "%d/%m/%Y",
     'DATE_INPUT_FORMATS': ["%d/%m/%Y"],
@@ -168,4 +167,3 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1)
 }
-"""
